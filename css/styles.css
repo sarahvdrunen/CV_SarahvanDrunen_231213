@@ -5,8 +5,12 @@
 
 /* Styles for the body */
 
+/* import poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* Styles for the body */
+
 body {
-	font-family: Lato, "Bytesized", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
