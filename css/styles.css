@@ -11,7 +11,6 @@ body {
 	background-color: #f8f8fc;
 }
 
-}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
@@ -60,4 +59,9 @@ body {
 	
 .language-level {
 		border: 2px solid #ffffff !important;
+}
+
+.custom-heading {
+    font-family: 'bytesized'; /* Change the font */
+    color: #ac9692; /* Change the color */
 }
