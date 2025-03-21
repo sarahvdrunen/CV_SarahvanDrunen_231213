@@ -6,11 +6,18 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Lato, "Bytesized", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
-
+custom-heading {
+    font-family: "Bytesized", sans-serif; /* .bytesized-regular {
+		font-family: "Bytesized", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+	  } */
+    color: #c83413; /* Change the color */
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
@@ -48,4 +55,15 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.language-level .Language-progress {
+	background-color: #8846cf!important;
+}
+.language-level {
+	background-color: aliceblue !important;
+}
+.language-level {
+	border :2px solid #5858b4 !important;
+	border-color: #220442!important;
+	border-radius: 0px ;
 }
